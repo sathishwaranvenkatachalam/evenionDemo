@@ -1,0 +1,20 @@
+.container {
+    margin : auto;
+    padding: 5%;
+}
+.form-container {
+    display : block;
+    padding : 0% 5%;
+    margin: auto;
+    mat-form-field {
+        margin : 0% 1rem;
+    } 
+}
+.flex {
+    display : flex;
+    margin: 0rem 1rem;
+    .table-container {
+        margin: 0.5rem 2rem;
+        width: 50%;
+    }
+}
