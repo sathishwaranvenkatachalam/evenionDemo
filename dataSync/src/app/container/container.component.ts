@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { from, Observable } from 'rxjs';
-import { concatAll, distinct, map, mergeAll, startWith } from 'rxjs/operators';
+import { distinct, map, startWith } from 'rxjs/operators';
 
 @Component({
   selector: 'app-container',
